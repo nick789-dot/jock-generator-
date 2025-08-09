@@ -1,0 +1,72 @@
+
+
+body {
+    background-color: rgb(47, 97, 80);
+    font-family: Arial, sans-serif;
+}
+
+.joke {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: beige;
+}
+
+.joke-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: beige;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border-left: 4px solid #ffd700;
+}
+
+.error {
+    color: #ffcccc;
+    background: rgba(255, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    border: 1px solid #ff6666;
+}
+
+.loading {
+    color: #cccccc;
+    font-style: italic;
+}
+
+button {
+    background-color: #ffd700;
+    color: rgb(47, 97, 80);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 1rem 0;
+}
+
+button:hover:not(:disabled) {
+    background-color: #ffed4e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+    margin-bottom: 2rem;
+}
